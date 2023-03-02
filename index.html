@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+  	<title>Mayoyo Publishing</title>
+  	<link rel = "icon" href = 
+"https://github.com/MayoyoPublishing/MayoyoPublishing.github.io/blob/main/index/logo2.gif?raw=true" 
+        type = "image/x-icon">
+
+<style>
+
+@font-face {
+     font-family: 'NIXGONM-Vb';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+    font-family: 'HSDookubi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HS두꺼비체.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.item1 { grid-area: face; }
+.item2 { grid-area: interview; }
+.item3 { grid-area: face2; }
+.item4 { grid-area: zine1; }
+.item5 { grid-area: hak; }
+.item6 { grid-area: vf1; }
+.item7 { grid-area: vf11; }
+.item8 { grid-area: vf2; }
+.item9 { grid-area: vf22; }
+.item10 { grid-area: zine2; }
+.item11 { grid-area: mandu; }
+.item12 { grid-area: zine3; }
+.item13 { grid-area: dote; }
+.item14 { grid-area: zine4; }
+.item15 { grid-area: sws; }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-areas:
+    'sws zine4 dote'
+    'zine3 mandu zine2'
+    'vf22 vf2 vf11'
+    'vf1 hak zine1'
+    'face2 interview face';
+  gap:10px;
+  background-color: white;
+  padding: 10px;
+  font-family: NIXGONM-Vb;
+  font-size: 20px;
+}
+
+.grid-container > div {
+  background-color: #F9E657;
+  padding: 5px 0;
+}
+
+.grid-container a {
+	text-decoration: none;
+}
+
+body{
+  background-color: #F9E657;
+  text-align: center;
+  font-size: 24px;
+  margin: 3% 10%;
+  font-weight: bold;
+  font-family: HSDookubi;
+  color: white;
+}
+
+img{
+  height: 15vw;
+  /*filter: grayscale(200%) opacity(0.7) drop-shadow(0 0 0 #f9e653); */
+}
+
+span{
+  color: #81a7d7;
+  line-height: 2vw;
+}
+
+a{
+  text-underline-position: under;
+  color: white;
+  line-height: 2vw; 
+}
+
+.header{
+	color: white;
+	margin-bottom: 4%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #f9e653;
+  cursor: pointer;
+  padding: 10px;
+  font-family: HSDookubi;
+  border-radius: 200px;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+<MARQUEE behavior="scroll" scrollamount="20" style="font-size: 120px; font-weight: bold;">마요요 퍼블리싱 ● MAYOYO PUBLISHING</MARQUEE>
+<a href="about.html">About</a>
+</div>
+
+
+<div class="grid-container">
+  <div class="item15">
+    <a href="sws.html"><span><br><br><img src="index/sws.gif"><br><br><br>스위스위스<br>Swisswis<br><br></span></a>
+  </div>
+  <div class="item14">
+    <a href="zine4.html"><span><br><br><img src="index/zine4.png"><br><br><br>2022 마요하계진<br>2022 Summer Seasonal Mayozine<br><br></span></a>
+  </div>
+  <div class="item13">
+    <a href="dote.html"><span><br><br><img src="index/dote.png"><br><br><br>도트고니아<br>Dotgonia<br><br></span></a>
+  </div>
+  
+
+  <div class="item12">
+    <a href="zine3.html"><span><br><br><img src="index/zine3.png"><br><br><br>2022 마요춘계진<br>2022 Spring Seasonal Mayozine<br><br></span></a>
+  </div>
+  <div class="item11">
+    <a href="mandu.html"><span><br><br><img src="index/mandu.gif"><br><br><br>만두<br>Mandu<br><br></span></a>
+  </div>
+  <div class="item10">
+    <a href="zine2.html"><span><br><br><img src="index/zine2.png"><br><br><br>2022 마요동계진<br>2022 Winter Seasonal Mayozine<br><br></span></a>
+  </div>
+  
+
+  <div class="item9">
+    <a href="vf22.html"><span><br><br><img src="index/vf22.png" style="height: 15vw;"><br><br><br>가상친구(사진)<br>Virtual Friend(Photo)<br><br></span></a>
+  </div>
+  <div class="item8">
+    <a href="vf2.html"><span><br><br><img src="index/vf2.png"><br><br><br>가상친구(사진)<br>Virtual Friend(Photo)<br><br></span></a>
+  </div>
+  <div class="item7">
+    <a href="vf11.html"><span><br><br><img src="index/bad.gif" style="height: 15vw;"><br><br><br>가상친구(Drawing)<br>Virtual Friend(Drawing)<br><br></span></a>
+  </div>
+
+
+  <div class="item6">
+    <a href="vf1.html"><span><br><br><img src="index/vf1.gif"><br><br><br>가상친구(그림)<br>Virtual Friend(Drawing)<br><br></span></a>
+  </div>
+  <div class="item5">
+    <a href="hak.html"><span><br><br><img src="index/hak.png"><br><br><br>학<br>Crane<br><br></span></a>
+  </div>  
+  <div class="item4">
+    <a href="zine1.html"><span><br><br><img src="index/zine1.png"><br><br><br>2021 마요추계진<br>2021 Fall Seasonal Mayozine<br><br></span></a>
+  </div>
+
+
+  <div class="item3">
+    <a href="int.html"><span><br><br><img src="index/int.png"><br><br><br>시게타카씨와의 인터뷰<br>Interview with Shigetaka Kurita<br><br></span></a>
+  </div>
+  <div class="item2">
+    <a href="face2.html"><span><br><br><img src="index/face2.gif"><br><br><br>얼굴 2021<br>Face 2021<br><br></span></a>
+  </div>
+  <div class="item1">
+    <a href="face.html"><span><br><br><img src="index/face.png"><br><br><br>얼굴들 2020<br>Faces 2020<br><br></span></a></div>
+
+
+
+  </div>
+
+  <div style="padding-top: 4%;">
+  Web designed by <a href="https://www.euna-lee.com/" style="text-decoration: underline;"> Lee Yoyo</a> / Photo by Kim Yoyo
+  </div>
+
+ 
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
+
+<!-- <a href="javascript:history.back()" style="width: 3%; position: fixed; top: 92%; right: 2%;"><img src="logo2.gif" ></a> -->
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</body>
+
+
+</html>
+
+
